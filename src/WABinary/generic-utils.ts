@@ -53,7 +53,8 @@ export const assertNodeErrorFree = (node: BinaryNode) => {
   const errNode = getBinaryNodeChild(node, 'error')
   if (errNode) {
     console.log('Unknown Error')
-    return null
+    
+    
   }
 }
 
