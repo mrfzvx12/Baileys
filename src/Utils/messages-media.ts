@@ -657,7 +657,7 @@ export const getWAUploadToServer = (
 		}
 
 		if(!urls) {
-			throw new Boom(
+			console.log(
 				'Media upload failed on all hosts',
 				{ statusCode: 500 }
 			)
