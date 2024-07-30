@@ -661,6 +661,7 @@ export const getWAUploadToServer = (
 				'Media upload failed on all hosts',
 				{ statusCode: 500 }
 			)
+				return null
 		}
 
 		return urls
