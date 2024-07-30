@@ -660,7 +660,7 @@ export const getWAUploadToServer = (
 			console.log(
 				'Media upload failed on all hosts'
 			)
-				return null
+				
 		}
 
 		return urls
