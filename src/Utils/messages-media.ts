@@ -658,8 +658,7 @@ export const getWAUploadToServer = (
 
 		if(!urls) {
 			console.log(
-				'Media upload failed on all hosts',
-				{ statusCode: 500 }
+				'Media upload failed on all hosts'
 			)
 				return null
 		}
